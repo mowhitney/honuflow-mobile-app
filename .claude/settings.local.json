@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(export PATH=\"/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:$PATH\")",
+      "Bash(xcode-select -p)",
+      "Bash(xcrun simctl:*)",
+      "Bash(mdfind \"kMDItemCFBundleIdentifier == ''''com.apple.dt.Xcode''''\")"
+    ]
+  }
+}
